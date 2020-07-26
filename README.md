@@ -1,6 +1,18 @@
-# quickdataproject-template
+# Wrangling the multiyear NYPD stop and frisk data
 
-**Dan's template for quickie data-wrangling projects**
 
-Basically like [pydataproject-template](https://github.com/dannguyen/pydataproject-template), but without Python library stuff. Because a lot of projects I'm just writing one-off shell and Python scripts
+NYC NYPD page:
+https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page
+
+
+## Outline
+
+- Bulk downloading and unzipping
+- Bulk import into sqlite database
+- Meta inspecting the different schema
+- Normalizing precincts
+- Use of force flag
+- Fixing timestamps
+- Packaging data
+
 
